@@ -11,7 +11,7 @@ from pathlib import Path
 from requests.sessions import session, to_key_val_list
 import fitz
 import glob
-url = input('请输入要获取的资料地址（原创力文档）：')
+url = input('https://4nijd8.smartapps.cn/pages/detail/detail?aid=5023311131003132&senddate=20210224&_swebfr=1&_swebFromHost=baiduboxapp：')
 total = []
 def Response(url):
 	return requests.session().get(url,headers={'user-agent':UserAgent().random})
